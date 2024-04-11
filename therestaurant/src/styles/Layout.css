@@ -1,0 +1,70 @@
+:root {
+  background-color: #faac24;
+  font-family: 'Martel Sans', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0c0101;
+  color: #fff;
+  padding: 10vh;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1vh;
+  font-size: 1.3rem;
+} 
+img.logo {
+  height: 30vh;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #0b0101;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+}
+
+.burger {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+

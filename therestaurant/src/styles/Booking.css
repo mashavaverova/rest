@@ -1,0 +1,74 @@
+
+
+* {
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.booking-form {
+  padding: 20px;
+  margin: 20px;
+}
+
+.booking-form h1 {
+  margin-bottom: 20px;
+}
+
+.labelForm {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputForm {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.inputForm:hover {
+  border-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.ConnectedButton,
+.ConnectButton,
+.reserveformButton {
+  width: 50%;
+  padding: 10px;
+  background-color: #b41f2c;
+  color: #fff;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reserveformButton:hover,
+.ConnectedButton:hover,
+.ConnectButton:hover {
+  background-color: #0056b3;
+}
+
+.ErrorMessage {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.booking-confirmation {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: #b41f2c 3px solid;
+  
+}
